@@ -1,0 +1,33 @@
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+    }
+
+    .navbar .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #182848;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+    }
+
+    .navbar .nav-links.nav-active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: #fff;
+        width: 30px;
+        height: 3px;
+        margin: 5px auto;
+        cursor: pointer;
+    }
+
+    .blog-post .post-image {
+        width: 100%;
+    }
+}
